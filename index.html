@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farewell Party Survey Form</title>
+  </head>
+  <body>
+    <h1>Farewell Party Survey Form</h1>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="Enter Your Name" />
+      <br /><br />
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Enter your email" />
+      <br /><br />
+      <label for="age">Age</label>
+      <input type="number" name="age" min="1" placeholder="Enter Your Age" />
+      <br /><br />
+      <label for="option">Which option best describes you ? </label>
+      <select name="option">
+        <option value="student" selected>Student</option>
+      </select>
+      <br /><br />
+      <label>Will you attend the party ? </label>
+      <input type="radio" name="attend" value="Yes" />Yes
+      <input type="radio" name="attend" value="No" /> No <br /><br />
+      <label>What did you like about the program ? </label><br />
+      <input type="checkbox" value="Training" /> Training
+      <br />
+      <input
+        type="checkbox"
+        value="The Learning Sessions from Industry Expert"
+      />The Learning Sessions from Industry Expert
+      <br />
+      <input type="checkbox" value="Community Meetups" /> Community Meetups
+      <br />
+      <input type="checkbox" value="Brown Bag Sessions" />Brown Bag Sessions
+      <br />
+      <input type="checkbox" value="Switching To Hybrid Mode" /> Switching to
+      Hybrid Mode
+      <br />
+      <input type="checkbox" value="Food , Office etc.." />Food , Office etc ..
+      <br />
+      <label>Any Comments Or Suggestions </label>
+      <textarea rows="5" cols="20"></textarea>
+      <br /><br />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
